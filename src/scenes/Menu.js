@@ -90,7 +90,7 @@ export class Menu extends Phaser.Scene {
         } if (this.registry.get('Level10Won') == undefined) {
             this.registry.set('Level10Won', false);
         } if (this.registry.get('Level11Won') == undefined) {
-            this.registry.set('Level11Won', true);
+            this.registry.set('Level11Won', false);
         } if (this.registry.get('BossLevelWon') == undefined) {
             this.registry.set("BossLevelWon", false);
         }
