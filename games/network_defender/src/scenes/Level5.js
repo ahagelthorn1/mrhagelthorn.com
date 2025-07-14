@@ -901,7 +901,7 @@ export class Level5 extends Phaser.Scene {
         }
     }
     walk(obj) {
-        if (obj.y > -5) {
+        if (obj.y > -400) {
             if (obj.typeOf == "Malware") {
                 if (obj.unpause_flag) {
                     this.pause = false;
