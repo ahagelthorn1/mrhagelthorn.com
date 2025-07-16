@@ -940,6 +940,11 @@ export class Level5 extends Phaser.Scene {
         } else {
             this.input.setDraggable(this.AntiMalware, false);
         }
+        if(this.Enemies.length == 1) {
+            this.lives = 0;
+            this.transferString = "WinScreen";
+            this.registry.set('Level5Complete', true); 
+        }
         if (this.money >= this.FIREWALL_PRICE) {
             this.input.setDraggable(this.Firewall);
         } else {
