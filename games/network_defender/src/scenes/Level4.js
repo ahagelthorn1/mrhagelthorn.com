@@ -42,7 +42,7 @@ export class Level4 extends Phaser.Scene {
         this.ANTI_MALWARE_TEXT = "Anti-Malware: " + this.ANTI_MALWARE_PRICE.toString() + "\nDestroys malware.";
         this.FIREWALL_TEXT = "Firewall: " + this.FIREWALL_PRICE.toString() + "\nBlocks malware and ransomware. Weak to DDOS.";
         this.ANTI_VIRUS_TEXT = "Anti-Virus: " + this.ANTI_VIRUS_PRICE.toString() + "\nBlocks Trojans via firewall. Place anywhere.";
-        this.ENCRYPTION_TEXT = "Encryption: " + this.ENCRYPTION_PRICE.toString() + "\nDestroys next ten enemies."
+        this.ENCRYPTION_TEXT = "Encryption: " + this.ENCRYPTION_PRICE.toString() + "\nDestroys next ten enemies. Limit 1"
         this.SECURE_PASSWORDS_TEXT = "Secure Passwords: " + this.SECURE_PASSWORDS_PRICE.toString() + "\nMakes all defences indestructible.";
         this.MALWARE_TEXT = "Malware\nWeak against Anti-Malware.";
         this.PHISH_TEXT = "Phish\nExplodes when shot. Weak to firewall";
@@ -564,7 +564,7 @@ export class Level4 extends Phaser.Scene {
                         this.dialog.setText('');
                     });
                     this.money -= this.ANTI_VIRUS_PRICE;
-                } else if (gameObject.typeOf == "Encryption" && this.money >= this.ENCRYPTION_PRICE) {
+                } else if (gameObject.typeOf == "Encryption" && this.money >= this.ENCRYPTION_PRICE && this.ERanges.length < 1) {
                     this.EncryptionCopy = this.add.sprite(gameObject.x, gameObject.y, this.ENCRYPTION_TEXTURE);
                     this.EncryptionCopy.setScale(.1);
                     this.EncryptionCopy.setAlpha(this.alphaGlobal);
