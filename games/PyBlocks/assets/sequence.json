@@ -1,0 +1,908 @@
+{
+    "difficulty1": [
+        {
+            "id": "11",
+            "question": "down()",
+            "answer": ["DOWN"]
+        },
+        {
+            "id": "12",
+            "question": "down()\nup()\nleft()\nright()",
+            "answer": ["DOWN", "UP", "LEFT", "RIGHT"]
+        },
+        {
+            "id": "13",
+            "question": "left()\nleft()\ndown()",
+            "answer": ["LEFT", "LEFT", "DOWN"]
+        },
+        {
+            "id": "14",
+            "question": "up()\ndown()\nleft()\nright()",
+            "answer": ["UP", "DOWN", "LEFT", "RIGHT"]
+        },
+        {
+            "id": "15",
+            "question": "up()\nup()",
+            "answer": ["UP", "UP"]
+        },
+        {
+            "id": "16",
+            "question": "left()\nright()\nleft()",
+            "answer": ["LEFT", "RIGHT", "LEFT"]
+        },
+        {
+            "id": "17",
+            "question": "down()\ndown()\nleft()",
+            "answer": ["DOWN", "DOWN", "LEFT"]
+        },
+        {
+            "id": "18",
+            "question": "right()\nright()",
+            "answer": ["RIGHT", "RIGHT"]
+        },
+        {
+            "id": "19",
+            "question": "down()\nleft()\nleft()\nup()",
+            "answer": ["DOWN", "LEFT", "LEFT", "UP"]
+        },
+        {
+            "id": "110",
+            "question": "left()\nup()\nright()\ndown()",
+            "answer": ["LEFT", "UP", "RIGHT", "DOWN"]
+        },
+        {
+            "id": "111",
+            "question": "down()\nright()\nright()",
+            "answer": ["DOWN", "RIGHT", "RIGHT"]
+        },
+        {
+            "id": "112",
+            "question": "up()\ndown()\nup()",
+            "answer": ["UP", "DOWN", "UP"]
+        },
+        {
+            "id": "113",
+            "question": "right()\nleft()\nright()\nleft()",
+            "answer": ["RIGHT", "LEFT", "RIGHT", "LEFT"]
+        },
+        {
+            "id": "114",
+            "question": "down()\ndown()\nright()",
+            "answer": ["DOWN", "DOWN", "RIGHT"]
+        },
+        {
+            "id": "115",
+            "question": "left()\nleft()\nup()",
+            "answer": ["LEFT", "LEFT", "UP"]
+        },
+        {
+            "id": "116",
+            "question": "up()\nup()\ndown()",
+            "answer": ["UP", "UP", "DOWN"]
+        },
+        {
+            "id": "117",
+            "question": "right()\ndown()\nleft()",
+            "answer": ["RIGHT", "DOWN", "LEFT"]
+        },
+        {
+            "id": "118",
+            "question": "left()\ndown()\nright()\nup()",
+            "answer": ["LEFT", "DOWN", "RIGHT", "UP"]
+        },
+        {
+            "id": "119",
+            "question": "down()\nup()\nright()",
+            "answer": ["DOWN", "UP", "RIGHT"]
+        },
+        {
+            "id": "120",
+            "question": "up()\nright()\nleft()",
+            "answer": ["UP", "RIGHT", "LEFT"]
+        },
+        {
+            "id": "121",
+            "question": "right()\nup()\ndown()",
+            "answer": ["RIGHT", "UP", "DOWN"]
+        },
+        {
+            "id": "122",
+            "question": "left()\nright()\ndown()",
+            "answer": ["LEFT", "RIGHT", "DOWN"]
+        },
+        {
+            "id": "123",
+            "question": "down()\nleft()\nup()\nright()",
+            "answer": ["DOWN", "LEFT", "UP", "RIGHT"]
+        },
+        {
+            "id": "124",
+            "question": "right()\nright()\nleft()\nleft()",
+            "answer": ["RIGHT", "RIGHT", "LEFT", "LEFT"]
+        },
+        {
+            "id": "125",
+            "question": "up()\nright()\ndown()\nleft()",
+            "answer": ["UP", "RIGHT", "DOWN", "LEFT"]
+        },
+        {
+            "id": "126",
+            "question": "left()\nleft()\ndown()\ndown()",
+            "answer": ["LEFT", "LEFT", "DOWN", "DOWN"]
+        },
+        {
+            "id": "127",
+            "question": "up()\nleft()\ndown()\nright()",
+            "answer": ["UP", "LEFT", "DOWN", "RIGHT"]
+        },
+        {
+            "id": "128",
+            "question": "down()\nup()\ndown()\nup()",
+            "answer": ["DOWN", "UP", "DOWN", "UP"]
+        },
+        {
+            "id": "129",
+            "question": "up()\nright()\nup()\nright()",
+            "answer": ["UP", "RIGHT", "UP", "RIGHT"]
+        }
+    ],
+    "difficulty2": [
+        {
+            "id": "21",
+            "question": "for i in range(3):\n    down()",
+            "answer": ["DOWN", "DOWN", "DOWN"]
+        },
+        {
+            "id": "22",
+            "question": "for i in range(2):\n    left()\n    right()",
+            "answer": ["LEFT", "RIGHT", "LEFT", "RIGHT"]
+        },
+        {
+            "id": "23",
+            "question": "for i in range(3):\n    down()\n    right()",
+            "answer": ["DOWN", "RIGHT", "DOWN", "RIGHT", "DOWN", "RIGHT"]
+        },
+        {
+            "id": "24",
+            "question": "for i in range(2):\n    up()",
+            "answer": ["UP", "UP"]
+        },
+        {
+            "id": "25",
+            "question": "for i in range(4):\n    left()",
+            "answer": ["LEFT", "LEFT", "LEFT", "LEFT"]
+        },
+        {
+            "id": "26",
+            "question": "for i in range(2):\n    right()\n    down()",
+            "answer": ["RIGHT", "DOWN", "RIGHT", "DOWN"]
+        },
+        {
+            "id": "27",
+            "question": "for i in range(3):\n    up()\n    left()",
+            "answer": ["UP", "LEFT", "UP", "LEFT", "UP", "LEFT"]
+        },
+        {
+            "id": "28",
+            "question": "for i in range(1):\n    right()\n    down()",
+            "answer": ["RIGHT", "DOWN"]
+        },
+        {
+            "id": "29",
+            "question": "for i in range(5):\n    down()",
+            "answer": ["DOWN", "DOWN", "DOWN", "DOWN", "DOWN"]
+        },
+        {
+            "id": "210",
+            "question": "for i in range(2):\n    up()\n    up()",
+            "answer": ["UP", "UP", "UP", "UP"]
+        },
+        {
+            "id": "211",
+            "question": "for i in range(3):\n    left()\n    left()",
+            "answer": ["LEFT", "LEFT", "LEFT", "LEFT", "LEFT", "LEFT"]
+        },
+        {
+            "id": "212",
+            "question": "for i in range(2):\n    down()\n    down()\n    right()",
+            "answer": ["DOWN", "DOWN", "RIGHT", "DOWN", "DOWN", "RIGHT"]
+        },
+        {
+            "id": "213",
+            "question": "for i in range(3):\n    right()",
+            "answer": ["RIGHT", "RIGHT", "RIGHT"]
+        },
+        {
+            "id": "214",
+            "question": "for i in range(2):\n    left()\n    down()",
+            "answer": ["LEFT", "DOWN", "LEFT", "DOWN"]
+        },
+        {
+            "id": "215",
+            "question": "for i in range(2):\n    right()\n    right()\n    up()",
+            "answer": ["RIGHT", "RIGHT", "UP", "RIGHT", "RIGHT", "UP"]
+        },
+        {
+            "id": "216",
+            "question": "for i in range(3):\n    down()\n    left()",
+            "answer": ["DOWN", "LEFT", "DOWN", "LEFT", "DOWN", "LEFT"]
+        },
+        {
+            "id": "217",
+            "question": "for i in range(2):\n    up()\n    right()",
+            "answer": ["UP", "RIGHT", "UP", "RIGHT"]
+        },
+        {
+            "id": "218",
+            "question": "for i in range(1):\n    up()\n    down()\n    left()",
+            "answer": ["UP", "DOWN", "LEFT"]
+        },
+        {
+            "id": "219",
+            "question": "for i in range(4):\n    left()\n    up()",
+            "answer": ["LEFT", "UP", "LEFT", "UP", "LEFT", "UP", "LEFT", "UP"]
+        },
+        {
+            "id": "220",
+            "question": "for i in range(2):\n    down()\n    right()\n    right()",
+            "answer": ["DOWN", "RIGHT", "RIGHT", "DOWN", "RIGHT", "RIGHT"]
+        },
+        {
+            "id": "221",
+            "question": "for i in range(3):\n    up()\n    right()\n    down()",
+            "answer": ["UP", "RIGHT", "DOWN", "UP", "RIGHT", "DOWN", "UP", "RIGHT", "DOWN"]
+        },
+        {
+            "id": "222",
+            "question": "for i in range(2):\n    left()\n    left()\n    left()",
+            "answer": ["LEFT", "LEFT", "LEFT", "LEFT", "LEFT", "LEFT"]
+        },
+        {
+            "id": "223",
+            "question": "for i in range(3):\n    right()\n    down()\n    left()",
+            "answer": ["RIGHT", "DOWN", "LEFT", "RIGHT", "DOWN", "LEFT", "RIGHT", "DOWN", "LEFT"]
+        }
+    ],
+    "difficulty3": [
+    {
+        "id": "31",
+        "question": "if 5 > 3:\n    up()\nelse:\n    down()",
+        "answer": ["UP"]
+    },
+    {
+        "id": "32",
+        "question": "if 2/1 == 2:\n    down()\n    down()\nelse:\n    up()\n    up()",
+        "answer": ["DOWN", "DOWN"]
+    },
+    {
+        "id": "33",
+        "question": "if 1 == 2:\n    left()\nelse:\n    right()",
+        "answer": ["RIGHT"]
+    },
+    {
+        "id": "34",
+        "question": "if 10 > 9:\n    down()\nelse:\n    up()",
+        "answer": ["DOWN"]
+    },
+    {
+        "id": "35",
+        "question": "if 3 != 3:\n    left()\n    down()\nelse:\n    up()",
+        "answer": ["UP"]
+    },
+    {
+        "id": "36",
+        "question": "if 8 >= 8:\n    up()\n    right()\nelse:\n    down()",
+        "answer": ["UP", "RIGHT"]
+    },
+    {
+        "id": "37",
+        "question": "if 7 < 10:\n    left()\n    down()\nelse:\n    right()",
+        "answer": ["LEFT", "DOWN"]
+    },
+    {
+        "id": "38",
+        "question": "if 6 > 10:\n    left()\nelse:\n    right()\n    right()",
+        "answer": ["RIGHT", "RIGHT"]
+    },
+    {
+        "id": "39",
+        "question": "if 2 != 2:\n    left()\n    left()\nelse:\n    up()",
+        "answer": ["UP"]
+    },
+    {
+        "id": "310",
+        "question": "if 4 == 4:\n    down()\n    down()\nelse:\n    up()",
+        "answer": ["DOWN", "DOWN"]
+    },
+    {
+        "id": "311",
+        "question": "if 0 < 1:\n    up()\n    left()\nelse:\n    down()",
+        "answer": ["UP", "LEFT"]
+    },
+    {
+        "id": "312",
+        "question": "if 9 == 8:\n    right()\nelse:\n    left()",
+        "answer": ["LEFT"]
+    },
+    {
+        "id": "313",
+        "question": "if 2 < 1:\n    down()\nelse:\n    up()\n    up()",
+        "answer": ["UP", "UP"]
+    },
+    {
+        "id": "314",
+        "question": "if 100 > 99:\n    up()\n    down()\nelse:\n    right()",
+        "answer": ["UP", "DOWN"]
+    },
+    {
+        "id": "315",
+        "question": "if 3 <= 2:\n    right()\nelse:\n    left()\n    left()",
+        "answer": ["LEFT", "LEFT"]
+    },
+    {
+        "id": "316",
+        "question": "if 1 == 1:\n    down()\nelse:\n    up()",
+        "answer": ["DOWN"]
+    },
+    {
+        "id": "317",
+        "question": "if 4 != 4:\n    down()\n    up()\nelse:\n    right()",
+        "answer": ["RIGHT"]
+    },
+    {
+        "id": "318",
+        "question": "if 6 > 2:\n    left()\n    up()\nelse:\n    right()\n    right()",
+        "answer": ["LEFT", "UP"]
+    },
+    {
+        "id": "319",
+        "question": "if 3 < 2:\n    up()\nelse:\n    left()\n    down()",
+        "answer": ["LEFT", "DOWN"]
+    },
+    {
+        "id": "320",
+        "question": "if 2 + 2 == 4:\n    right()\n    right()\nelse:\n    left()",
+        "answer": ["RIGHT", "RIGHT"]
+    },
+    {
+        "id": "321",
+        "question": "if 9 < 1:\n    down()\nelse:\n    up()",
+        "answer": ["UP"]
+    },
+    {
+        "id": "322",
+        "question": "if 0 == 0:\n    left()\n    up()\nelse:\n    down()\n    right()",
+        "answer": ["LEFT", "UP"]
+    }
+    ],
+    "difficulty4": [
+    {
+        "id": "41",
+        "question": "for i in range(4):\n    if i > 1:\n        up()\n    else:\n        down()",
+        "answer": ["DOWN", "DOWN", "UP", "UP"]
+    },
+    {
+        "id": "42",
+        "question": "for i in range(5):\n    if i == 2:\n        left()\n    else:\n        right()",
+        "answer": ["RIGHT", "RIGHT", "LEFT", "RIGHT", "RIGHT"]
+    },
+    {
+        "id": "43",
+        "question": "for i in range(3):\n    if i % 2 != 0:\n        down()\n    else:\n        up()",
+        "answer": ["UP", "DOWN", "UP"]
+    },
+    {
+        "id": "44",
+        "question": "for i in range(2):\n    if i == 1:\n        left()\n    else:\n        right()",
+        "answer": ["RIGHT", "LEFT"]
+    },
+    {
+        "id": "45",
+        "question": "for i in range(6):\n    if i < 3:\n        left()\n    else:\n        down()",
+        "answer": ["LEFT", "LEFT", "LEFT", "DOWN", "DOWN", "DOWN"]
+    },
+    {
+        "id": "46",
+        "question": "for i in range(3):\n    if i > 0:\n        down()\n    else:\n        up()",
+        "answer": ["UP", "DOWN", "DOWN"]
+    },
+    {
+        "id": "47",
+        "question": "for i in range(4):\n    if i == 3:\n        right()\n    else:\n        left()",
+        "answer": ["LEFT", "LEFT", "LEFT", "RIGHT"]
+    },
+    {
+        "id": "48",
+        "question": "for i in range(5):\n    if i % 2 == 0:\n        up()\n    else:\n        down()",
+        "answer": ["UP", "DOWN", "UP", "DOWN", "UP"]
+    },
+    {
+        "id": "49",
+        "question": "for i in range(4):\n    if i == 0 or i == 3:\n        right()\n    else:\n        left()",
+        "answer": ["RIGHT", "LEFT", "LEFT", "RIGHT"]
+    },
+    {
+        "id": "410",
+        "question": "for i in range(2):\n    if i != 0:\n        down()\n    else:\n        up()",
+        "answer": ["UP", "DOWN"]
+    },
+    {
+        "id": "411",
+        "question": "for i in range(3):\n    if i == 1:\n        left()\n    else:\n        right()",
+        "answer": ["RIGHT", "LEFT", "RIGHT"]
+    },
+    {
+        "id": "412",
+        "question": "for i in range(5):\n    if i == 4:\n        down()\n    else:\n        up()",
+        "answer": ["UP", "UP", "UP", "UP", "DOWN"]
+    },
+    {
+        "id": "413",
+        "question": "for i in range(3):\n    if i == 2:\n        left()\n    else:\n        right()",
+        "answer": ["RIGHT", "RIGHT", "LEFT"]
+    },
+    {
+        "id": "414",
+        "question": "for i in range(4):\n    if i < 2:\n        down()\n    else:\n        up()",
+        "answer": ["DOWN", "DOWN", "UP", "UP"]
+    },
+    {
+        "id": "415",
+        "question": "for i in range(6):\n    if i % 3 == 0:\n        left()\n    else:\n        right()",
+        "answer": ["LEFT", "RIGHT", "RIGHT", "LEFT", "RIGHT", "RIGHT"]
+    },
+    {
+        "id": "416",
+        "question": "for i in range(3):\n    if i != 2:\n        right()\n    else:\n        down()",
+        "answer": ["RIGHT", "RIGHT", "DOWN"]
+    },
+    {
+        "id": "417",
+        "question": "for i in range(4):\n    if i == 1 or i == 2:\n        left()\n    else:\n        right()",
+        "answer": ["RIGHT", "LEFT", "LEFT", "RIGHT"]
+    },
+    {
+        "id": "418",
+        "question": "for i in range(5):\n    if i % 2:\n        down()\n    else:\n        up()",
+        "answer": ["UP", "DOWN", "UP", "DOWN", "UP"]
+    },
+    {
+        "id": "419",
+        "question": "for i in range(3):\n    if i == 0:\n        left()\n    else:\n        right()",
+        "answer": ["LEFT", "RIGHT", "RIGHT"]
+    },
+    {
+        "id": "420",
+        "question": "for i in range(2):\n    if i == 1:\n        up()\n    else:\n        down()",
+        "answer": ["DOWN", "UP"]
+    },
+    {
+        "id": "421",
+        "question": "for i in range(2):\n    if i == 1:\n        down()\n    else:\n        up()",
+        "answer": ["UP", "DOWN"]
+    }
+],
+"difficulty5": [
+    {
+        "id": "51",
+        "question": "arr = [1, 2, 3, 4, 5]\nfor i in arr:\n    if i == 7:\n        up()\ndown()\ndown()",
+        "answer": ["DOWN", "DOWN"]
+    },
+    {
+        "id": "52",
+        "question": "arr = ['apple', 'banana', 'cherry']\nfor fruit in arr:\n    if fruit == 'banana':\n        up()\ndown()",
+        "answer": ["UP","DOWN"]
+    },
+    {
+        "id": "53",
+        "question": "arr = [1, 3, 5]\nfor num in arr:\n    if num % 2 == 1:\n        up()\ndown()",
+        "answer": ["UP","UP","UP","DOWN"]
+    },
+    {
+        "id": "54",
+        "question": "arr = [10, 15, 20, 25, 30]\nfor num in arr:\n    if num % 5 == 0:\n        up()\ndown()\ndown()",
+        "answer": ["UP", "UP", "UP", "UP", "UP", "DOWN", "DOWN"]
+    },
+    {
+        "id": "55",
+        "question": "arr = ['cat', 'dog', 'elephant', 'tiger']\nfor animal in arr:\n    if len(animal) > 3:\n        up()\ndown()\ndown()",
+        "answer": ["UP", "UP", "DOWN", "DOWN"]
+    },
+    {
+        "id": "56",
+        "question": "arr = [8, 12, 15, 20, 30]\nfor num in arr:\n    if num % 5 == 0:\n        up()\ndown()\ndown()",
+        "answer": ["UP", "UP", "UP", "DOWN", "DOWN"]
+    },
+    {
+        "id": "57",
+        "question": "arr = [5, 8, 12, 15, 20]\nfor num in arr:\n    if num > 10 and num % 2 == 0:\n        up()\ndown()\ndown()",
+        "answer": ["UP","UP", "DOWN", "DOWN"]
+    },
+    {
+        "id": "58",
+        "question": "arr = ['red', 'green', 'blue', 'yellow', 'purple']\nfor color in arr:\n    if 'e' in color:\n        up()\ndown()",
+        "answer": ["UP", "UP", "UP","UP", "UP","DOWN"]
+    },
+    {
+        "id": "59",
+        "question": "arr = [2, 4, 6, 8, 10]\nfor num in arr:\n    if num % 4 == 0:\n        up()\ndown()",
+        "answer": ["UP", "UP", "DOWN"]
+    },
+    {
+        "id": "510",
+        "question": "arr = ['apple', 'banana', 'cherry', 'date']\nfor fruit in arr:\n    if 'a' in fruit:\n        left()\nright()",
+        "answer": ["LEFT", "LEFT", "LEFT", "RIGHT"]
+    },
+    {
+        "id": "511",
+        "question": "arr = [3, 6, 9, 12, 15]\nfor num in arr:\n    if num % 3 == 0:\n        left()\nright()",
+        "answer": ["LEFT", "LEFT", "LEFT", "LEFT","LEFT", "RIGHT"]
+    },
+    {
+        "id": "512",
+        "question": "arr = ['dog', 'cat', 'bird', 'fish']\nfor animal in arr:\n    if len(animal) > 3:\n        up()\n    else:\n        down()\nleft()",
+        "answer": ["DOWN","DOWN","UP","UP","LEFT"]
+    },
+    {
+        "id": "513",
+        "question": "arr = [1, 4, 7, 10, 13]\nfor num in arr:\n    if num % 2 == 0:\n        up()\n    else:\n        down()\nright()",
+        "answer": ["DOWN", "UP", "DOWN", "UP", "DOWN","RIGHT"]
+    },
+    {
+        "id": "514",
+        "question": "arr = [5, 10, 15, 20, 25]\nfor num in arr:\n    if num % 5 == 0:\n        up()\nright()",
+        "answer": ["UP", "UP", "UP", "UP", "UP", "RIGHT"]
+    },
+    {
+        "id": "515",
+        "question": "arr = [1, 5, 10, 15, 20]\nfor num in arr:\n    if num % 5 == 0:\n        up()\ndown()",
+        "answer": ["UP", "UP", "UP", "UP", "DOWN"]
+    },
+    {
+        "id": "516",
+        "question": "arr = ['red', 'green', 'blue', 'purple']\nfor color in arr:\n    if len(color) > 4:\n        left()\nright()",
+        "answer": ["LEFT", "RIGHT"]
+    },
+    {
+        "id": "517",
+        "question": "arr = [2, 4, 6, 8]\nfor num in arr:\n    if num > 5:\n        down()\nright()",
+        "answer": ["DOWN", "DOWN", "RIGHT"]
+    },
+    {
+        "id": "518",
+        "question": "arr = ['cat', 'dog', 'mouse', 'elephant']\nfor animal in arr:\n    if 'e' in animal:\n        up()\nleft()",
+        "answer": ["UP", "UP", "LEFT"]
+    },
+    {
+        "id": "519",
+        "question": "arr = ['red', 'yellow', 'blue']\nfor color in arr:\n    if 'l' in color:\n        down()\nright()",
+        "answer": ["DOWN", "DOWN", "RIGHT"]
+    },
+    {
+        "id": "520",
+        "question": "arr = [7, 14, 21, 28]\nfor num in arr:\n    if num % 7 == 0:\n        left()\nup()",
+        "answer": ["LEFT", "LEFT","LEFT","LEFT", "UP"]
+    },
+    {
+        "id": "521",
+        "question": "arr = [7, 14, 21, 28]\nfor num in arr:\n    if num % 7 == 0:\n        up()\nleft()",
+        "answer": ["UP", "UP","UP","UP", "LEFT"]
+    }
+],
+"difficulty6": [
+    {
+        "id": "61",
+        "question": "def star():\n    up()\n    right()\n    down()\n    left()\nstar()",
+        "answer": ["UP", "RIGHT", "DOWN", "LEFT"]
+    },
+    {
+        "id": "62",
+        "question": "def loop():\n    up()\n    left()\n    down()\n    right()\n    down()\n    left()\nright()",
+        "answer": ["RIGHT"]
+    },
+    {
+        "id": "63",
+        "question": "def bounce():\n    up()\n    down()\n    up()\n    down()\n    up()\n    down()\nbounce()",
+        "answer": ["UP", "DOWN", "UP", "DOWN", "UP", "DOWN"]
+    },
+    {
+        "id": "64",
+        "question": "def zigzag():\n    up()\n    down()\n    down()\n    up()\n    up()\n    down()\nzigzag()",
+        "answer": ["UP", "DOWN", "DOWN", "UP", "UP", "DOWN"]
+    },
+    {
+        "id": "65",
+        "question": "def wave():\n    up()\n    up()\n    down()\n    down()\n    up()\n    down()\nwave()",
+        "answer": ["UP", "UP", "DOWN", "DOWN", "UP", "DOWN"]
+    },
+    {
+        "id": "66",
+        "question": "def back():\n    down()\n    up()\n    down()\n    up()\n    down()\n    up()\nback()",
+        "answer": ["DOWN", "UP", "DOWN", "UP", "DOWN", "UP"]
+    },
+    {
+        "id": "67",
+        "question": "def flip():\n    up()\n    up()\n    down()\n    up()\n    down()\nflip()",
+        "answer": ["UP", "UP", "DOWN", "UP", "DOWN"]
+    },
+    {
+        "id": "68",
+        "question": "def repeat():\n    down()\n    up()\n    up()\n    down()\nrepeat()",
+        "answer": ["DOWN", "UP", "UP", "DOWN"]
+    },
+    {
+        "id": "69",
+        "question": "def balance():\n    down()\n    down()\n    up()\n    up()\n    down()\n    up()\nbalance()",
+        "answer": ["DOWN", "DOWN", "UP", "UP", "DOWN", "UP"]
+    },
+    {
+        "id": "610",
+        "question": "def up():\n    down()\nup()",
+        "answer": ["DOWN"]
+    },
+    {
+        "id": "611",
+        "question": "def circle():\n    up()\n    right()\n    down()\n    left()\n    up()\ncircle()",
+        "answer": ["UP", "RIGHT", "DOWN", "LEFT", "UP"]
+    },
+    {
+        "id": "612",
+        "question": "def square():\n    up()\n    right()\n    down()\n    left()\n    up()\nsquare()",
+        "answer": ["UP", "RIGHT", "DOWN", "LEFT", "UP"]
+    },
+    {
+        "id": "613",
+        "question": "def shape():\n    up()\n    right()\n    down()\n    right()\n    down()\n    left()\nshape()",
+        "answer": ["UP", "RIGHT", "DOWN", "RIGHT", "DOWN", "LEFT"]
+    },
+    {
+        "id": "614",
+        "question": "def spiral():\n    up()\n    right()\n    down()\n    left()\n    up()\n    right()\nspiral()",
+        "answer": ["UP", "RIGHT", "DOWN", "LEFT", "UP", "RIGHT"]
+    },
+    {
+        "id": "615",
+        "question": "def wave_reverse():\n    down()\n    down()\n    up()\n    up()\n    down()\n    up()\nwave_reverse()",
+        "answer": ["DOWN", "DOWN", "UP", "UP", "DOWN", "UP"]
+    },
+    {
+        "id": "616",
+        "question": "def bounce_reverse():\n    down()\n    up()\n    down()\n    up()\n    down()\n    up()\nbounce_reverse()",
+        "answer": ["DOWN", "UP", "DOWN", "UP", "DOWN", "UP"]
+    },
+    {
+        "id": "617",
+        "question": "def forward_backward():\n    up()\n    down()\n    up()\n    down()\n    up()\nforward_backward()",
+        "answer": ["UP", "DOWN", "UP", "DOWN", "UP"]
+    },
+    {
+        "id": "618",
+        "question": "def shift():\n    up()\n    right()\n    down()\n    left()\n    up()\nshift()",
+        "answer": ["UP", "RIGHT", "DOWN", "LEFT", "UP"]
+    },
+    {
+        "id": "619",
+        "question": "def cross():\n    up()\n    right()\n    down()\n    left()\n    right()\ncross()",
+        "answer": ["UP", "RIGHT", "DOWN", "LEFT", "RIGHT"]
+    },
+    {
+        "id": "620",
+        "question": "def jump():\n    up()\n    down()\n    up()\njump()",
+        "answer": ["UP", "DOWN", "UP"]
+    },
+    {
+        "id": "621",
+        "question": "def jump():\n    down()\n    up()\n    down()\njump()",
+        "answer": ["DOWN", "UP", "DOWN"]
+    }
+    ],
+    "difficulty7": [
+        {
+            "id": "71",
+            "question": "try:\n    number = float(\"Hello\")\n    up()\nexcept:\n    down()",
+            "answer": ["DOWN"]        
+        },
+        {
+            "id": "72",
+            "question": "try:\n    result = 10 / 0\n    left()\nexcept:\n    right()\nright()\n",
+            "answer": ["RIGHT","RIGHT"]
+        },
+        {
+            "id": "73",
+            "question": "try:\n    file = open(\"non_existent_file.js\", \"r\")\n    up()\nexcept:\n    down()\n    down()\n",
+            "answer": ["DOWN","DOWN"]
+        },
+        {
+            "id": "75",
+            "question": "try:\n    my_list = [1, 2, 3]\n    print(my_list[5])\n    up()\nexcept:\n    down()",
+            "answer": ["DOWN"]
+        },
+        {
+            "id": "76",
+            "question": "try:\n    number = float(\"42\")\n    up()\nexcept:\n    down()",
+            "answer": ["UP"]
+        },
+        {
+            "id": "77",
+            "question": "try:\n    result = 10 / 2\n    left()\nexcept:\n    right()",
+            "answer": ["LEFT"]
+        },
+        {
+            "id": "78",
+            "question": "try:\n    file = open(\"existing_file.txt\", \"r\")\n    up()\nexcept:\n    down()",
+            "answer": ["UP"]
+        },
+        {
+            "id": "79",
+            "question": "try:\n    my_list = [1, 2, 3]\n    print(my_list[2])\n    right()\nexcept:\n    left()",
+            "answer": ["RIGHT"]
+        },
+        {
+            "id": "710",
+            "question": "try:\n    result = 30 / 6\n    up()\nexcept:\n    down()",
+            "answer": ["UP"]
+        },
+        {
+            "id": "711",
+            "question": "try:\n    number = int(\"456\")\n    left()\nexcept:\n    right()",
+            "answer": ["LEFT"]
+        },
+        {
+            "id": "712",
+            "question": "try:\n    file = open(\"existing_file.txt\", \"r\")\n    down()\nexcept:\n    up()",
+            "answer": ["DOWN"]
+        },
+        {
+            "id": "713",
+            "question": "try:\n    my_list = [1, 2, 3]\n    print(my_list[1])\n    left()\nexcept:\n    right()",
+            "answer": ["LEFT"]
+        },
+        {
+            "id": "714",
+            "question": "try:\n    number = int(\"3.14\")\n    right()\nexcept:\n    left()",
+            "answer": ["LEFT"]
+        },
+        {
+            "id": "715",
+            "question": "try:\n    result = 25 / 5\n    up()\nexcept:\n    down()",
+            "answer": ["UP"]
+        },
+        {
+            "id": "716",
+            "question": "try:\n    file = open(\"missing_file.txt\", \"r\")\n    left()\nexcept:\n    right()",
+            "answer": ["RIGHT"]
+        },
+        {
+            "id": "717",
+            "question": "try:\n    number = float(\"NaN\")\n    down()\nexcept:\n    up()",
+            "answer": ["DOWN"]
+        },
+        {
+            "id": "718",
+            "question": "try:\n    result = 45 / 9\n    right()\nexcept:\n    left()",
+            "answer": ["RIGHT"]
+        },
+        {
+            "id": "719",
+            "question": "try:\n    my_list = [1, 2, 3]\n    print(my_list[2])\n    up()\nexcept:\n    down()",
+            "answer": ["UP"]
+        },
+        {
+            "id": "720",
+            "question": "try:\n    result = 100 / 10\n    left()\nexcept:\n    right()",
+            "answer": ["LEFT"]
+        },
+        {
+            "id": "721",
+            "question": "try:\n    result = 100 / 10\n    right()\nexcept:\n    left()",
+            "answer": ["RIGHT"]
+        }
+    ],
+  "difficulty8": [
+    {
+      "id": "81",
+      "question": "my_dict={'key':up()}\nmy_dict['key']\n",
+      "answer": ["UP"]
+    },
+    {
+      "id": "82",
+      "question": "c=True\nmy_dict={'key':up()if c else down()}\nmy_dict['key']\n",
+      "answer": ["UP"]
+    },
+    {
+      "id": "83",
+      "question": "my_dict={'key':left()+right()+up()+down()}\nmy_dict['key']\n",
+      "answer": ["LEFT", "RIGHT", "UP", "DOWN"]
+    },
+    {
+      "id": "84",
+      "question": "my_dict={'key':left()+right()}\nmy_dict['key']\n",
+      "answer": ["LEFT", "RIGHT"]
+    },
+    {
+      "id": "85",
+      "question": "my_dict={'key':down()}\nmy_dict['key']\n",
+      "answer": ["DOWN"]
+    },
+    {
+      "id": "86",
+      "question": "c=False\nmy_dict={'key':down()if c else up()}\nmy_dict['key']\n",
+      "answer": ["UP"]
+    },
+    {
+      "id": "87",
+      "question": "my_dict={'key':right()+left()+up()+down()}\nmy_dict['key']\n",
+      "answer": ["RIGHT", "LEFT", "UP", "DOWN"]
+    },
+    {
+      "id": "88",
+      "question": "my_dict={'key':up()+left()}\nmy_dict['key']\n",
+      "answer": ["UP", "LEFT"]
+    },
+    {
+      "id": "89",
+      "question": "my_dict={'key':right()+down()}\nmy_dict['key']\n",
+      "answer": ["RIGHT", "DOWN"]
+    },
+    {
+      "id": "810",
+      "question": "my_dict={'key':up()+left()+right()+down()}\nmy_dict['key']\n",
+      "answer": ["UP", "LEFT", "RIGHT", "DOWN"]
+    },
+    {
+      "id": "811",
+      "question": "my_dict={'key':up()}\nmy_dict['key']\n",
+      "answer": ["UP"]
+    },
+    {
+      "id": "812",
+      "question": "c=True\nmy_dict={'key':down()if c else left()}\nmy_dict['key']\n",
+      "answer": ["DOWN"]
+    },
+    {
+      "id": "813",
+      "question": "my_dict={'key':right()+left()+up()+down()}\nmy_dict['key']\n",
+      "answer": ["RIGHT", "LEFT", "UP", "DOWN"]
+    },
+    {
+      "id": "814",
+      "question": "my_dict={'key':right()+up()}\nmy_dict['key']\n",
+      "answer": ["RIGHT", "UP"]
+    },
+    {
+      "id": "815",
+      "question": "my_dict={'key':down()}\nmy_dict['key']\n",
+      "answer": ["DOWN"]
+    },
+    {
+      "id": "816",
+      "question": "c=False\nmy_dict={'key':left()if c else right()}\nmy_dict['key']\n",
+      "answer": ["RIGHT"]
+    },
+    {
+      "id": "817",
+      "question": "my_dict={'key':left()+up()+down()+right()}\nmy_dict['key']\n",
+      "answer": ["LEFT", "UP", "DOWN", "RIGHT"]
+    },
+    {
+      "id": "818",
+      "question": "my_dict={'key':left()+down()}\nmy_dict['key']\n",
+      "answer": ["LEFT", "DOWN"]
+    },
+    {
+      "id": "819",
+      "question": "my_dict={'key':right()+up()}\nmy_dict['key']\n",
+      "answer": ["RIGHT", "UP"]
+    },
+    {
+      "id": "820",
+      "question": "my_dict={'key':left()+down()+up()+right()}\nmy_dict['key']\n",
+      "answer": ["LEFT", "DOWN", "UP", "RIGHT"]
+    },
+    {
+      "id": "821",
+      "question": "my_dict={'key':down()+left()+right()+up()}\nmy_dict['key']\n",
+      "answer": ["DOWN", "LEFT", "RIGHT", "UP"]
+    }
+  ]
+}
