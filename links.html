@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+  <meta charset="UTF-8">
+  <title>Links - Mr Hagelthorn</title>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #f7f7f7;
+      color: #333;
+    }
+
+    header {
+      background: #f7f7f7;
+      padding: 0.5rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .logo {
+      height: 150px;
+      width: auto;
+      flex-shrink: 0;
+      margin-right: 2rem;
+    }
+
+    nav.tabs {
+      display: flex;
+      gap: 1rem;
+      font-family: 'Luckiest Guy', cursive;
+      font-size: 1.3rem;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    nav.tabs a {
+      color: #555;
+      text-decoration: none;
+      border-bottom: 4px solid transparent;
+      padding-bottom: 0.5rem;
+      transition: color 0.2s, border-color 0.2s;
+      font-weight: 400;
+    }
+
+    nav.tabs a:hover {
+      color: #222;
+      border-bottom-color: #666;
+    }
+
+    nav.tabs .active-tab {
+      color: #222;
+      font-weight: 700;
+      border-bottom: 4px solid #222;
+      padding-bottom: 0.5rem;
+      cursor: default;
+      pointer-events: none;
+      background: transparent;
+      box-shadow: none;
+      border-radius: 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+
+    .card a {
+      position: relative;
+      display: block;
+      height: 150px;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card img.static-img,
+    .card img.gif-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .card img.gif-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: none;
+      pointer-events: none;
+    }
+
+    .card:hover img.static-img {
+      display: none;
+    }
+
+    .card:hover img.gif-img {
+      display: block;
+    }
+
+    .card .content {
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .card .title {
+      font-family: 'Luckiest Guy', cursive;
+      font-size: 1.4rem;
+      color: #222;
+    }
+
+    @media (max-width: 600px) {
+      .card .title {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <a href="index.html">
+    <img src="assets/Logo.png" alt="Game Hub Logo" class="logo" />
+  </a>
+
+  <nav class="tabs">
+    <a href="index.html">Games</a>
+    <a href="leaderboards.html">Leaderboards</a>
+    <div class="active-tab">Links</div>
+  </nav>
+</header>
+
+<main class="grid">
+  <div class="card">
+    <a href="https://idea.org.uk" target="_blank" rel="noopener noreferrer">
+      <img src="assets/idea_flat.png" alt="Idea" class="static-img">
+      <img src="assets/idea_trailer.gif" alt="Idea" class="gif-img">
+    </a>
+    <div class="content">
+      <div class="title">Idea.org.uk</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <a href="https://editor.raspberrypi.org/" target="_blank" rel="noopener noreferrer">
+      <img src="assets/raspberry_pi_flat.png" alt="Raspberry Pi Code Editor" class="static-img">
+      <img src="assets/raspberry_pi_trailer.gif" alt="Raspberry Pi Code Editor" class="gif-img">
+    </a>
+    <div class="content">
+      <div class="title">Raspberry Pi</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <a href="https://code.org" target="_blank" rel="noopener noreferrer">
+      <img src="assets/code_org_flat.jpg" alt="Code.org" class="static-img">
+      <img src="assets/code_org_trailer.gif" alt="Code.org" class="gif-img">
+    </a>
+    <div class="content">
+      <div class="title">Code.org</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <a href="https://code.org" target="_blank" rel="noopener noreferrer">
+      <img src="assets/make_code_flat.png" alt="MakeCode Arcade" class="static-img">
+      <img src="assets/make_code_trailer.gif" alt="MakeCodeArcade" class="gif-img">
+    </a>
+    <div class="content">
+      <div class="title">MakeCode Arcade</div>
+    </div>
+  </div>
+    <div class="card">
+    <a href="https://code.org" target="_blank" rel="noopener noreferrer">
+      <img src="assets/ibm_flat.png" alt="IBM Skills" class="static-img">
+      <img src="assets/ibm_trailer.gif" alt="IBM Skills" class="gif-img">
+    </a>
+    <div class="content">
+      <div class="title">IBM Skills</div>
+    </div>
+  </div>
+  <!--
+    <div class="card">
+    <a href="https://code.org" target="_blank" rel="noopener noreferrer">
+      <img src="assets/typing_com_flat.png" alt="typing.com" class="static-img">
+      <img src="assets/typing_com_trailer.gif" alt="typing.com" class="gif-img">
+    </a>
+    <div class="content">
+      <div class="title">Typing.com</div>
+    </div>
+  </div>
+  -->
+</main>
+</body>
+</html>
