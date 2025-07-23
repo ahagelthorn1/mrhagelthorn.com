@@ -6,113 +6,121 @@
   <title>MrHagelthorn</title>
   <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
   <style>
-    body {
-      margin: 0;
-      font-family: sans-serif;
-      background: #f7f7f7;
-      color: #333;
-    }
-
-  header {
-    background: #f7f7f7;
-    padding: 0.5rem 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    position: sticky;
-    top: 0;
-    z-index: 10;
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f7f7f7;
+  color: #333;
+}
+header {
+  background: #f7f7f7;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.logo {
+  height: 150px;
+  width: auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+.card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.card a {
+  position: relative;
+  display: block;
+  height: 150px;
+}
+.card img.static-img,
+.card img.gif-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+.card img.gif-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  pointer-events: none;
+}
+.card:hover img.static-img {
+  display: none;
+}
+.card:hover img.gif-img {
+  display: block;
+}
+.card .content {
+  padding: 1rem;
+  text-align: center;
+}
+.card .title {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 1.4rem;
+  color: #222;
+}
+@media (max-width: 600px) {
+  .card .title {
+    font-size: 1.2rem;
   }
+}
 
-  .logo {
-    height: 150px;
-    width: auto;
-  }
-
-
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 1.5rem;
-      padding: 2rem;
-      max-width: 1200px;
-      margin: auto;
-    }
-
-    .card {
-      background: white;
-      border-radius: 16px;
-      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-      overflow: hidden;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-      cursor: pointer;
-    }
-
-    .card:hover {
-      transform: translateY(-6px);
-      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-    }
-
-    .card img {
-      width: 100%;
-      display: block;
-      border-bottom: 1px solid #ddd;
-    }
-
-    .card .content {
-      padding: 1rem;
-      text-align: center;
-    }
-
-    .card .title {
-      font-family: 'Luckiest Guy', cursive;
-      font-size: 1.4rem;
-      color: #222;
-    }
-
-    @media (max-width: 600px) {
-      .card .title {
-        font-size: 1.2rem;
-      }
-    }
   </style>
 </head>
 <body>
-
   <header>
     <img src="assets/Logo.png" alt="Game Hub Logo" class="logo" >
   </header>
-
   <main class="grid">
     <div class="card">
       <a href="games/py_blocks/py_blocks.html">
-        <img src="assets/PyBlocks_Logo.png" alt="PyBlocks">
+        <img src="assets/PyBlocks_Logo.png" alt="PyBlocks" class="static-img">
+        <img src="assets/pyblocks_trailer.gif" alt="PyBlocks Gameplay" class="gif-img">
       </a>
       <div class="content">
         <div class="title">PyBlocks</div>
       </div>
     </div>
-
     <div class="card">
       <a href="games/network_defender/network_defender.html">
-        <img src="assets/network_defender_thumb.png" alt="Network Defender">
+        <img src="assets/network_defender_thumb.png" alt="Network Defender" class="static-img">
+        <img src="assets/network_defender_trailer.gif" alt="Network Defender Gameplay" class="gif-img">
       </a>
       <div class="content">
         <div class="title">Network Defender</div>
       </div>
     </div>
-
     <div class="card">
       <a href="games/logic_pipes/logic_pipes.html">
-        <img src="assets/logic_pipes_thumb.png" alt="Logic Pipes">
+        <img src="assets/logic_pipes_thumb.png" alt="Logic Pipes" class="static-img">
+        <img src="assets/logic_pipes_trailer.gif" alt="Logic Pipes Gameplay" class="gif-img">
       </a>
       <div class="content">
         <div class="title">Logic Pipes</div>
       </div>
     </div>
   </main>
-
 </body>
 </html>
